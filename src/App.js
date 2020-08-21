@@ -7,21 +7,24 @@ import './App.css';
 // import Test from './component/Test'
 // import StyleComponent from './component/StyleComponent'
 import ObjectPass from './component/ObjectPass'
+import StateComponent from './component/StateComponent'
 
 function App() {
   const products =[
-    {name:'Photoshop',price:'$200'},
-    {name:'Elistater', price:'$100'},
-    {name:'Premire Pro', price:'$100'}
+    {name:'Adobe Photoshop',price:'$200'},
+    {name:'After Effects', price:'$300'},
+    {name:'Premire Pro', price:'$500'}
   ]
+
+ 
   return (
     <div className="App">
       {/* <StyleComponent name='Billal Hossain' skills ='PS | Ai | PP | AR'></StyleComponent> */}
       {/* <StyleComponent name='Nazmul Huda' skills ='JavaScript | ES6 | REACT | PHP | LARAVEL'></StyleComponent> */}
-        
-        <ObjectPass product ={products[0]}></ObjectPass>
-        <ObjectPass product ={products[1]}></ObjectPass>
-        <ObjectPass product ={products[2]}></ObjectPass>
+
+        {/* {products.map(product =><ObjectPass product={product}></ObjectPass>)} */}
+
+        <StateComponent></StateComponent>
     </div>  
   );
 }
