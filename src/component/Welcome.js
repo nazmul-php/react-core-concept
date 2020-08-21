@@ -5,6 +5,7 @@ class Welcome extends Component{
     getAlert(a){
         alert(a)
     }
+    
     render(){
         return (
             <div>
