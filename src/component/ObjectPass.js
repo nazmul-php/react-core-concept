@@ -22,3 +22,4 @@ const ObjectPass = (props) =>{
 }
 
 export default ObjectPass
+

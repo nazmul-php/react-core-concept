@@ -8,6 +8,8 @@ import './App.css';
 // import StyleComponent from './component/StyleComponent'
 import ObjectPass from './component/ObjectPass'
 import StateComponent from './component/StateComponent'
+import EffectsComponent from './component/EffectsComponent'
+import State from './component/State'
 
 function App() {
   const products =[
@@ -24,7 +26,10 @@ function App() {
 
         {/* {products.map(product =><ObjectPass product={product}></ObjectPass>)} */}
 
-        <StateComponent></StateComponent>
+        {/* <StateComponent></StateComponent> */}
+        
+        {/* <EffectsComponent></EffectsComponent> */}
+        <State></State>
     </div>  
   );
 }
